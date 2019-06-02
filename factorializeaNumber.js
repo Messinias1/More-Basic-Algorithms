@@ -16,6 +16,8 @@
       for (let i = num - 1; i >= 1; i--) {
         num = num * i
       }
+      console.log(num)
+      return num
   }
 
   factorialize(3);
